@@ -1,0 +1,6 @@
+framework module FCBaseOCKit {
+  umbrella header "FCBaseOCKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
