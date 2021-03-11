@@ -7,6 +7,7 @@
 //
 
 #import "FCViewController.h"
+#import "FCGradientCornerView.h"
 
 @interface FCViewController ()
 
@@ -17,7 +18,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = UIColor.redColor;
+    
+    FCGradientCornerView *view = [[FCGradientCornerView alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
+    view.backgroundColor = UIColor.lightGrayColor;
+    [self.view addSubview:view];
 }
 
 - (void)didReceiveMemoryWarning

@@ -10,11 +10,15 @@
 #endif
 #endif
 
+#import "FCGradientModel.h"
 #import "FCBaseKit.h"
 #import "FCBaseKitHeader.h"
+#import "FCCornerRadiusUtil.h"
 #import "FCCollectionViewSectionModel.h"
 #import "FCCollectionViewCell.h"
 #import "FCFixTypeCollectionViewCell.h"
+#import "FCGradientCornerButton.h"
+#import "FCGradientCornerView.h"
 #import "FCTableViewSectionModel.h"
 #import "FCTableViewCell.h"
 

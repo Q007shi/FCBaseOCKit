@@ -369,10 +369,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-FCBaseOCKit_Example/Pods-FCBaseOCKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FCBaseOCKit/FCBaseOCKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FCCollectionViewLayout/FCCollectionViewLayout.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FCBaseOCKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FCCollectionViewLayout.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

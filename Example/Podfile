@@ -5,6 +5,8 @@ platform :ios, '9.0'
 target 'FCBaseOCKit_Example' do
   pod 'FCBaseOCKit', :path => '../'
 
+  pod 'FCCollectionViewLayout/ObjC'
+
   target 'FCBaseOCKit_Tests' do
     inherit! :search_paths
 
