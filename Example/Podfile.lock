@@ -4,8 +4,12 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
+<<<<<<< HEAD
   - FCBaseOCKit (0.0.2)
   - FCCollectionViewLayout/ObjC (0.0.13)
+=======
+  - FCBaseOCKit (0.0.3)
+>>>>>>> 841a0fbb8d3cbe942403710045ff77c78d5c46a7
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -23,8 +27,12 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+<<<<<<< HEAD
   FCBaseOCKit: ac3d4fc59319d2bd4f812693638fc64352369fbf
   FCCollectionViewLayout: 307061711cc819948d9e2b4e8afee188d9231b68
+=======
+  FCBaseOCKit: 49fc5501235063f67a7a9d22f7ff10d9c2c4cb0f
+>>>>>>> 841a0fbb8d3cbe942403710045ff77c78d5c46a7
 
 PODFILE CHECKSUM: 8ad100093e3b9b568735ba0b136cd07c22d51f66
 
