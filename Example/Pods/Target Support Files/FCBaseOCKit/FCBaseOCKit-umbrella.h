@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "FCGradientModel.h"
 #import "FCBaseKit.h"
 #import "FCBaseKitHeader.h"
 #import "FCCornerRadiusUtil.h"

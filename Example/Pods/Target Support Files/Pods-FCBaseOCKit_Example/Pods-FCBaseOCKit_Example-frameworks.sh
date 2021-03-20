@@ -176,11 +176,11 @@ code_sign_if_enabled() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/FCBaseOCKit/FCBaseOCKit.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/FCCollectionViewLayout/FCCollectionViewLayout.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/FCCategoryOCKit/FCCategoryOCKit.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/FCBaseOCKit/FCBaseOCKit.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/FCCollectionViewLayout/FCCollectionViewLayout.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/FCCategoryOCKit/FCCategoryOCKit.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

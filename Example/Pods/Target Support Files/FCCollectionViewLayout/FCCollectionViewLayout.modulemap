@@ -1,6 +1,0 @@
-framework module FCCollectionViewLayout {
-  umbrella header "FCCollectionViewLayout-umbrella.h"
-
-  export *
-  module * { export * }
-}

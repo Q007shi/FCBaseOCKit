@@ -9,13 +9,13 @@
 
 
 typedef struct{
-    CGFloat bottomRight;
-    CGFloat bottomLeft;
     CGFloat topLeft;
     CGFloat topRight;
+    CGFloat bottomRight;
+    CGFloat bottomLeft;
 }FCCornerRadii;
 
-FCCornerRadii FCCornerRadiiMake(CGFloat bottomRight, CGFloat bottomLeft, CGFloat topLeft, CGFloat topRight);
+FCCornerRadii FCCornerRadiiMake(CGFloat topLeft, CGFloat topRight, CGFloat bottomRight, CGFloat bottomLeft);
 
 @interface FCCornerRadiusUtil : NSObject
 

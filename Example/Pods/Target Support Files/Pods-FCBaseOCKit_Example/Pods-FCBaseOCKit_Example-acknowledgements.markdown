@@ -24,9 +24,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
-## FCCollectionViewLayout
+## FCCategoryOCKit
 
-Copyright (c) 2020 2585299617@qq.com <617@qq.com>
+Copyright (c) 2020 2585299617@qq.com <2585299617@qq.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
